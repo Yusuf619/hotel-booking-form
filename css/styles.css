@@ -1,0 +1,53 @@
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  font-family: 'Roboto', sans-serif !important;
+}
+
+
+.container1 {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 100px;
+
+}
+
+.container1 input, button, select{
+  text-align: center;
+  border: 1px solid;
+  height: 50px;
+  border: none;
+  border-radius: 5px;
+}
+/* 
+.div1{
+  display: inline-flex;
+} */
+
+.price{
+  text-align: center;
+  margin-top: 50px;
+}
+
+h2{
+  text-align: center;
+  margin-top: 50px;
+  font-size: 50px;
+}
+.form1{
+  background-color: lightblue;
+  height: 70px;
+  text-align: center;
+  padding-top: 10px;
+  border: none;
+  
+
+}
+
+button{
+  background-color: blue;
+  color: white;
+  border: none;
+}
