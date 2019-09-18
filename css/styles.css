@@ -5,7 +5,10 @@ html{
 body{
   font-family: 'Roboto', sans-serif !important;
 }
-
+/* NAVBAR */
+.navbar{
+  background-color: lightgray !important;
+}
 
 #form {
   text-align: center;
@@ -43,6 +46,8 @@ body{
 .price img{
   width: 25%;
 }
+
+
 
 .price p{
   display: inline-flex;

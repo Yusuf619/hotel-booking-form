@@ -25,7 +25,7 @@ session_start();
 
 <!-- NAV BAR START -->
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Navbar</a>
+  <a class="navbar-brand" href="#"><i class="fas fa-hotel"></i> Hotels</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -86,23 +86,23 @@ session_start();
 
 <!-- CONTENT START -->
 <div class="price">
-  <img src="img/hotel1.jpg" alt="" srcset="">
-<p id="inn">Holiday Inn: R 200</p>
+  <img src="img/holidayin.jpeg" alt="" srcset="">
+<p id="inn"> R 200</p>
 </div>
 <div class="price">
-<img src="img/hotel1.jpg" alt="" srcset="">
+<img src="img/radisson.jpeg" alt="" srcset="">
 <p id="rad">Radison: R 100</p>
 </div>
 <div class="price">
-<img src="img/hotel1.jpg" alt="" srcset="">
+<img src="img/citylodge.jpeg" alt="" srcset="">
 <p id="city">City Lodge: R 400</p>
 </div>
 <div class="price">
-<img src="img/hotel1.jpg" alt="" srcset="">
+<img src="img/townlodge.jpeg" alt="" srcset="">
 <p id="town">Town Lodge: R 150</p>
 </div>
 
-
+<h2>Start Your Booking!</h2>
 
 <div id='form'>
 <form role="form" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="post">
