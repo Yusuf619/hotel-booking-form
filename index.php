@@ -35,7 +35,7 @@ session_start();
         <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#form">Get Booking</a>
+        <a class="nav-link" href="#form">Get Booking!</a>
       </li>
 
     </ul>
@@ -86,11 +86,23 @@ session_start();
 
 <!-- CONTENT START -->
 <div class="price">
+  <img src="img/hotel1.jpg" alt="" srcset="">
 <p id="inn">Holiday Inn: R 200</p>
+</div>
+<div class="price">
+<img src="img/hotel1.jpg" alt="" srcset="">
 <p id="rad">Radison: R 100</p>
+</div>
+<div class="price">
+<img src="img/hotel1.jpg" alt="" srcset="">
 <p id="city">City Lodge: R 400</p>
+</div>
+<div class="price">
+<img src="img/hotel1.jpg" alt="" srcset="">
 <p id="town">Town Lodge: R 150</p>
 </div>
+
+
 
 <div id='form'>
 <form role="form" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="post">
