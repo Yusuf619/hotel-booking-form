@@ -86,19 +86,19 @@ session_start();
 
 <!-- CONTENT START -->
 <div class="price">
-<p id="inn"> <img src="img/holidayin.jpeg" alt="" srcset=""> Holiday-inn R200</p>
+<p id="inn"> <img src="img/holidayin.jpeg" alt="" srcset=""> Holiday Inn is a British-owned American brand of hotels, and a subsidiary of InterContinental Hotels Group. Founded as a U.S. motel chain, it has grown to be one of the world's largest hotel chains, with 1,173 active hotels and over 214,000 bedrooms as of September 30, 2018</p>
 </div>
 <div class="price">
 
-<p id="rad"> <img src="img/radisson.jpeg" alt="" srcset="">Radison: R 100</p>
+<p id="rad"> <img src="img/radisson.jpeg" alt="" srcset="">Radisson Blu is a worldwide upper upscale hotel brand. Its hotels are found in major cities, key airport gateways and leisure destinations. The tagline of the brand is ‘Feel the difference’. This is also reflected in the brand's focus points: memorable, stylish and purposeful</p>
 </div>
 <div class="price">
 
-<p id="city"><img src="img/citylodge.jpeg" alt="" srcset="">City Lodge: R 400</p>
+<p id="city"><img src="img/citylodge.jpeg" alt="" srcset="">The hotel is within walking distance not only of the Waterfront’s main attractions, but also of the Central Business District of the Mother City. It has easy access to the N2 freeway and is only fifteen minutes by car from the Cape Town International Airport. Other facilities include a sundowner bar, a boardroom (for meetings and conferences), an internet café, a fitness room, wireless internet, fax and photocopy services, dry cleaning and a shuttle service. A very apt nautical theme is reflected in the hotel’s décor.</p>
 </div>
 <div class="price3">
 
-<p id="town"><img src="img/townlodge.jpeg" alt="" srcset="">Town Lodge: R 150</p>
+<p id="town"><img src="img/townlodge.jpeg" alt="" srcset="">The hotel is ideally located near many conveniences and features a restaurant on the property. It is 20 minutes from the Cape Town International Airport, next to the Parc du Cap office park in Tyger Valley, and near the Bellville CBD, University of Stellenbosch Business School, Bellville Golf Club, Bellville Velodrome athletics and conference centre and the Tyberberg Nature Reserve.</p>
 </div>
 
 <div id="book"  >
