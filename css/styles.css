@@ -15,8 +15,8 @@ h5{
 }
 
 .carousel-caption p{
-padding-bottom: 500px;
 font-size: 20px;
+text-align: center;
 }
 
 #form {
@@ -26,8 +26,8 @@ font-size: 20px;
   background-color: lightblue;
   padding-top: 10px;
   border-radius: 5px;
-  margin-right: 175px;
-  margin-left: 175px;
+  margin-right: 10px;
+  margin-left: 10px;
 
 }
 
@@ -111,14 +111,13 @@ button{
 }
 
 @media(max-width: 1234px){
-   input, select, button{
-    float:none;
-    text-align:center;
-    width:100%;
-    background-color: black;
-  }
+input, select, button{
+  float: none;
+  display: inline-block;
+}
 
 }
+
 
 @media(max-width: 1234px){
   #book{

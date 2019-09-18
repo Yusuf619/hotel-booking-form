@@ -68,7 +68,7 @@ session_start();
     <div class="carousel-item">
       <img class="d-block w-100" src="img/hotel3.jpg" alt="Third slide">
       <div class="carousel-caption d-none d-md-block">
-    <h5>Book Now!</h5>
+  <h5>Book Now!</h5>
     <p>The availabilty is running out!</p>
   </div>
     </div>
@@ -102,8 +102,9 @@ session_start();
 <p id="town">Town Lodge: R 150</p>
 </div>
 
-<div id="book">
+<div id="book" >
 <h2>Start Your Booking!</h2>
+
 <div id='form'>
 <form role="form" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="post">
 
@@ -120,8 +121,8 @@ session_start();
 
 <label><input type="date" name="indate" placeholder='indate' required></label>
 <label><input type="date" name="outdate" placeholder='outdate' required></label>
-<button class="submit" name="submit" type="submit">Submit</button>
 
+<button class="submit" name="submit" type="submit">Submit</button>
 
 </form>
 </div>
