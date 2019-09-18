@@ -95,19 +95,19 @@ session_start();
 <div id='form'>
 <form role="form" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="post">
 
-<label>First Name<input type="text" name="firstname" placeholder='First Name' required></label><br>
-<label>Surname<input type="text" name="surname"placeholder='surname' required></label><br>
-<label>Hotel Name
+<input type="text" name="firstname" placeholder='First Name' required>
+<input type="text" name="surname"placeholder='surname' required>
+<label>
 <select name="hotelname" required>
   <option value="Holiday Inn">Holiday Inn</option>
   <option value="Radison">Radison</option>
   <option value="City Lodge">City Lodge</option>
   <option value="Town Lodge">Town Lodge</option>
 </select>
-</label><br>
+</label>
 
-<label>In Date<input type="date" name="indate" placeholder='indate' required></label><br>
-<label>Out Date<input type="date" name="outdate" placeholder='outdate' required></label><br>
+<label><input type="date" name="indate" placeholder='indate' required></label>
+<label><input type="date" name="outdate" placeholder='outdate' required></label>
 <button class="submit" name="submit" type="submit">Submit</button>
 
 

@@ -7,19 +7,26 @@ body{
 }
 
 
-.container1 {
+#form {
   text-align: center;
   margin-top: 50px;
   margin-bottom: 100px;
+  background-color: lightblue;
+  padding-top: 10px;
+  border-radius: 5px;
+  margin-right: 175px;
+  margin-left: 175px;
+  
 
 }
 
-.container1 input, button, select{
+#form input, button, select{
   text-align: center;
   border: 1px solid;
   height: 50px;
   border: none;
   border-radius: 5px;
+  color: grey;
 }
 /* 
 .div1{
@@ -27,27 +34,19 @@ body{
 } */
 
 .price{
-  text-align: center;
-  margin-top: 50px;
+  background-color: aquamarine;
 }
+
 
 h2{
   text-align: center;
   margin-top: 50px;
   font-size: 50px;
 }
-.form1{
-  background-color: lightblue;
-  height: 70px;
-  text-align: center;
-  padding-top: 10px;
-  border: none;
-  
-
-}
 
 button{
   background-color: blue;
   color: white;
   border: none;
+  width: 100px;
 }
