@@ -86,43 +86,55 @@ session_start();
 
 <!-- CONTENT START -->
 <div class="price">
-  <img src="img/holidayin.jpeg" alt="" srcset="">
-<p id="inn"> Holiday R 200</p>
+<p id="inn"> <img src="img/holidayin.jpeg" alt="" srcset=""> Holiday-inn R200</p>
 </div>
 <div class="price">
-<img src="img/radisson.jpeg" alt="" srcset="">
-<p id="rad">Radison: R 100</p>
+
+<p id="rad"> <img src="img/radisson.jpeg" alt="" srcset="">Radison: R 100</p>
 </div>
 <div class="price">
-<img src="img/citylodge.jpeg" alt="" srcset="">
-<p id="city">City Lodge: R 400</p>
+
+<p id="city"><img src="img/citylodge.jpeg" alt="" srcset="">City Lodge: R 400</p>
 </div>
 <div class="price3">
-<img src="img/townlodge.jpeg" alt="" srcset="">
-<p id="town">Town Lodge: R 150</p>
+
+<p id="town"><img src="img/townlodge.jpeg" alt="" srcset="">Town Lodge: R 150</p>
 </div>
 
-<div id="book" >
+<div id="book"  >
 <h2>Start Your Booking!</h2>
 
-<div id='form'>
+<div id='form' >
 <form role="form" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="post">
 
+
 <input type="text" name="firstname" placeholder='First Name' required>
-<input type="text" name="surname"placeholder='surname' required>
-<label>
+
+
+
+<input type="text" name="surname"placeholder='Surname' required>
+
+
+<!-- <label>Hotel Choice :</label> -->
+
 <select name="hotelname" required>
   <option value="Holiday Inn">Holiday Inn</option>
   <option value="Radison">Radison</option>
   <option value="City Lodge">City Lodge</option>
   <option value="Town Lodge">Town Lodge</option>
 </select>
-</label>
+  
 
-<label><input type="date" name="indate" placeholder='indate' required></label>
-<label><input type="date" name="outdate" placeholder='outdate' required></label>
+<!-- <label>Check In : </label> -->
 
-<button class="submit" name="submit" type="submit">Submit</button>
+<input type="date" name="indate" placeholder='indate' required>
+  
+<!-- <label>Check Out : </label> -->
+
+<input type="date" name="outdate" placeholder='outdate' required>
+  
+    <button class="submit" name="submit" type="submit">Submit</button>
+   
 
 </form>
 </div>
@@ -216,24 +228,25 @@ $surname = $_POST['surname'];
 $result = mysqli_query($conn,"SELECT hotelname, indate, outdate, firstname, surname FROM bookings WHERE firstname='$firstname' && surname='$surname'"); 
 if ($result->num_rows > 0) {
     while ($row = $result->fetch_assoc()) {    
- echo "<div class='duplicate'> You already have a booking. <br> Firstname: ". $row['firstname'] . "<br>
+ echo "<div class='duplicate'><i class='fas fa-exclamation-triangle'></i> <br> You already have a booking. <br> Firstname: ". $row['firstname'] . "<br>
 Lastname: " . $row['surname'].
 "<br> Start Date: " . $row['indate'].
 "<br> End Date: " . $row['outdate'].
 "<br> Hotel Name: " . $row['hotelname'].
 "<br>" . $interval->format('%r%a days') . "<br> Total: R " . $value ."</div>";
-    } 
+break; } 
 }
 
 
-echo '<div class="return">'. "<br> Firstname:".  $_SESSION['firstname']."<br>".
-"surname:".  $_SESSION['surname']."<br>".
-"Start Date:". $_SESSION['indate']."<br>".
-"End Date:". $_SESSION['outdate']."<br>".
-"Hotel Name:". $_SESSION['hotelname']."<br>".
+echo '<div class="return">'. "<br> Firstname : ".  $_SESSION['firstname']."<br>".
+"surname : ".  $_SESSION['surname']."<br>".
+"Start Date : ". $_SESSION['indate']."<br>".
+"End Date : ". $_SESSION['outdate']."<br>".
+"Hotel Name : ". $_SESSION['hotelname']."<br>".
 "Total R" . $value ;
 
 echo "<form role='form' action=" . htmlspecialchars($_SERVER['PHP_SELF']) . " method='post'>
+<br>
 <button name='confirm' type='submit'> Confirm </button> </form>".'</div>';
 
 
@@ -251,7 +264,7 @@ $hotelname=$_SESSION['hotelname'];
 $indate=$_SESSION['indate'];
 $outdate=$_SESSION['outdate'];
 $stmt->execute();
-echo '<div id="confirmed">'."Booking confirmed!".'</div>';
+echo '<div id="confirmed">'."Booking confirmed! ".'</div>';
 
 }
 
