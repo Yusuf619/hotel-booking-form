@@ -97,13 +97,13 @@ session_start();
 <img src="img/citylodge.jpeg" alt="" srcset="">
 <p id="city">City Lodge: R 400</p>
 </div>
-<div class="price">
+<div class="price3">
 <img src="img/townlodge.jpeg" alt="" srcset="">
 <p id="town">Town Lodge: R 150</p>
 </div>
 
+<div id="book">
 <h2>Start Your Booking!</h2>
-
 <div id='form'>
 <form role="form" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="post">
 
@@ -124,6 +124,7 @@ session_start();
 
 
 </form>
+</div>
 </div>
 
 <!-- CONTENT END -->
@@ -249,7 +250,7 @@ $hotelname=$_SESSION['hotelname'];
 $indate=$_SESSION['indate'];
 $outdate=$_SESSION['outdate'];
 $stmt->execute();
-echo '<div id="confirmed">'."Booking confirmed".'</div>';
+echo '<div id="confirmed">'."Booking confirmed!".'</div>';
 
 }
 

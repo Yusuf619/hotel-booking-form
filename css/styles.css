@@ -10,6 +10,15 @@ body{
   background-color: lightgray !important;
 }
 
+h5{
+  font-size: 60px;
+}
+
+.carousel-caption p{
+padding-bottom: 500px;
+font-size: 20px;
+}
+
 #form {
   text-align: center;
   margin-top: 50px;
@@ -19,7 +28,13 @@ body{
   border-radius: 5px;
   margin-right: 175px;
   margin-left: 175px;
-  
+
+}
+
+#book{
+  background-color: whitesmoke;
+  min-height: 400px;
+  padding-top: 50px;
 
 }
 
@@ -41,6 +56,21 @@ body{
   margin-top: 50px;
   padding-left: 25px;
 }
+.price3{
+  font-size: 20px;
+  margin-top: 50px;
+  padding-left: 25px;
+  padding-bottom: 100px;
+}
+
+.price3 img{
+  width: 25%;
+}
+
+.price3 p{
+  display: inline-flex;
+  padding-left: 50px;
+}
 
 .price img{
   width: 25%;
@@ -57,6 +87,13 @@ body{
   background-color: lightgray !important;
 }
 
+#confirmed{
+  color: green !important;
+  text-align: center;
+  font-size: 50px;
+
+}
+
 
 
 
@@ -71,4 +108,21 @@ button{
   color: white;
   border: none;
   width: 100px;
+}
+
+@media(max-width: 1234px){
+   input, select, button{
+    float:none;
+    text-align:center;
+    width:100%;
+    background-color: black;
+  }
+
+}
+
+@media(max-width: 1234px){
+  #book{
+    padding-bottom: 100px;
+    padding-top: 50px;
+  }
 }
