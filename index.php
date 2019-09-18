@@ -54,22 +54,22 @@ session_start();
     <div class="carousel-item active">
       <img class="d-block w-100" src="img/hotel1.jpg" alt="First slide">
       <div class="carousel-caption d-none d-md-block">
-    <h5>TEXT</h5>
-    <p>MORE TETX</p>
+    <h5>Cheap, Affordable Hotels</h5>
+    <p>Price range from R1000 - R5000 p/n</p>
   </div>
     </div>
     <div class="carousel-item">
       <img class="d-block w-100" src="img/hotel2.jpg" alt="Second slide">
       <div class="carousel-caption d-none d-md-block">
-    <h5>TEXT</h5>
-    <p>MORE TETX</p>
+    <h5>Located in:</h5>
+    <p>Cpt, Drbn, Jhb</p>
   </div>
     </div>
     <div class="carousel-item">
       <img class="d-block w-100" src="img/hotel3.jpg" alt="Third slide">
       <div class="carousel-caption d-none d-md-block">
-    <h5>TEXT</h5>
-    <p>MORE TETX</p>
+    <h5>Book Now!</h5>
+    <p>The availabilty is running out!</p>
   </div>
     </div>
   </div>
@@ -87,7 +87,7 @@ session_start();
 <!-- CONTENT START -->
 <div class="price">
   <img src="img/holidayin.jpeg" alt="" srcset="">
-<p id="inn"> R 200</p>
+<p id="inn"> Holiday R 200</p>
 </div>
 <div class="price">
 <img src="img/radisson.jpeg" alt="" srcset="">
