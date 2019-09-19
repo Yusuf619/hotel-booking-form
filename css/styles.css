@@ -102,6 +102,7 @@ label{
   padding-right: 50px;
 }
 
+
 .page-footer{
   background-color: lightgray !important;
 }
@@ -183,11 +184,20 @@ button{
   }
   
   }
+  @media(max-width: 1500px){
+    .price p, .price3 p{
+      float: left;
+     
+    }
+    
+    }
   
 @media(max-width: 920px){
-input, select, button, select , option{
+input, select, .submit, select , option{
 width: 90%;
 text-align: center;
+margin-bottom: 10px;
+
 }
 
 }
