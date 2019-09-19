@@ -1,17 +1,17 @@
 html{
-  scroll-behavior: smooth;
+scroll-behavior: smooth;
 }
 
 body{
-  font-family: 'Roboto', sans-serif !important;
+font-family: 'Roboto', sans-serif !important;
 }
 /* NAVBAR */
 .navbar{
-  background-color: lightgray !important;
+background-color: lightgray !important;
 }
 
 h5{
-  font-size: 40px;
+font-size: 40px;
 }
 
 .carousel-caption p{
@@ -20,178 +20,178 @@ margin-bottom: 200px;
 }
 
 #form {
-  text-align: center;
-  margin-top: 50px;
-  margin-bottom: 100px;
-  background-color: lightblue;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  border-radius: 5px;
-  margin-right: 10px;
-  margin-left: 10px;
+text-align: center;
+margin-top: 50px;
+margin-bottom: 100px;
+background-color: lightblue;
+padding-top: 10px;
+padding-bottom: 10px;
+border-radius: 5px;
+margin-right: 10px;
+margin-left: 10px;
 
 }
 
 label{
-  color: white;
-  background-color: blue;
-  margin-left: 5px;
-  margin-right: 5px;
-  border-radius: 2px;
-  width: 100px;
+color: white;
+background-color: blue;
+margin-left: 5px;
+margin-right: 5px;
+border-radius: 2px;
+width: 100px;
 }
 
 #book{
-  background-color: whitesmoke;
-  min-height: 400px;
-  padding-top: 50px;
-  text-align: center;
+background-color: whitesmoke;
+min-height: 400px;
+padding-top: 50px;
+text-align: center;
 
 }
 
 #form input, button, select{
-  text-align: center;
-  border: 1px solid;
-  border: none;
-  height: 50px;;
-  border-radius: 2px;
-  color: grey;
+text-align: center;
+border: 1px solid;
+border: none;
+height: 50px;;
+border-radius: 2px;
+color: grey;
 }
 /* 
 .div1{
-  display: inline-flex;
+display: inline-flex;
 } */
 
 .price{
-  font-size: 20px;
-  margin-top: 50px;
-  padding-left: 25px;
+font-size: 20px;
+margin-top: 50px;
+padding-left: 25px;
 }
 .price3{
-  font-size: 20px;
-  margin-top: 50px;
-  padding-left: 25px;
-  padding-bottom: 100px;
+font-size: 20px;
+margin-top: 50px;
+padding-left: 25px;
+padding-bottom: 100px;
 }
 
 .price3 img{
-  width: 25%;
-  height: 50%;
-  float: left;
-  padding-right: 50px;
+width: 25%;
+height: 50%;
+float: left;
+padding-right: 50px;
+margin-bottom: 50px;
 }
 
 
 .price3 p{
-  display: inline-flex;
-  padding-left: 50px;
-  padding-right: 50px;
+display: inline-flex;
+padding-left: 50px;
+padding-right: 50px;
 }
 
 .price img{
-  width: 25%;
-  height: 50%;
-  padding-right: 50px;
+width: 25%;
+height: 50%;
+padding-right: 50px;
 }
 
 
 
 .price p{
-  display: inline-flex;
-  padding-left: 50px;
-  padding-right: 50px;
+display: inline-flex;
+padding-left: 50px;
+padding-right: 50px;
 }
 
 
 .page-footer{
-  background-color: lightgray !important;
+background-color: lightgray !important;
 }
 
 .container {
-  position: relative;
-  width: 50%;
+position: relative;
+width: 50%;
 }
 
 
 #confirmed{
-  color: green !important;
-  text-align: center;
-  font-size: 50px;
+color: green !important;
+text-align: center;
+font-size: 50px;
 
 }
 
 
 .duplicate{
-  text-align: left;
-  font-size: 20px;
-  background-color: lightblue;
-  color: white;
-  padding-bottom: 50px;
-  padding-top: 50px;
-  padding-left: 50px;
-  width: 100%;
- -webkit-transition: all 0.5s ease;
-  -moz-transition: all 0.5s ease;
-  -ms-transition: all 0.5s ease;
-  transition: all 0.5s ease;
+text-align: left;
+font-size: 20px;
+background-color: lightblue;
+color: white;
+padding-bottom: 50px;
+padding-top: 50px;
+padding-left: 50px;
+width: 100%;
+-webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+-ms-transition: all 0.5s ease;
+transition: all 0.5s ease;
 
 }
 .duplicate:hover{
-  font-size: 25px;
+font-size: 25px;
 }
 
 .return{
-  text-align: left;
-  font-size: 20px;
-  background-color: lightblue;
-  color: white;
-  padding-bottom: 50px;
-  padding-left: 50px;
-  width: 100%;
- -webkit-transition: all 0.5s ease;
-  -moz-transition: all 0.5s ease;
-  -ms-transition: all 0.5s ease;
-  transition: all 0.5s ease;
+text-align: left;
+font-size: 20px;
+background-color: lightblue;
+color: white;
+padding-bottom: 50px;
+padding-left: 50px;
+width: 100%;
+-webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+-ms-transition: all 0.5s ease;
+transition: all 0.5s ease;
 
 }
 .return:hover{
-  font-size: 25px;
+font-size: 25px;
 }
 
 
 h2{
-  text-align: center;
-  margin-top: 50px;
-  font-size: 50px;
+text-align: center;
+font-size: 50px;
 }
 
-.hotel-price{
-  display: none;
-}
+/* .hotel-price{
+display: none;
+} */
 
 button{
-  background-color: blue;
-  color: white;
-  border: none;
-  width: 100px;
+background-color: blue;
+color: white;
+border: none;
+width: 100px;
 }
 
 
 @media(max-width: 1500px){
-  .price img, .price3 img{
-    width: 50%;
-   
-  }
-  
-  }
-  @media(max-width: 1500px){
-    .price p, .price3 p{
-      float: left;
-     
-    }
-    
-    }
-  
+.price img, .price3 img{
+width: 50%;
+
+}
+
+}
+@media(max-width: 1500px){
+.price p, .price3 p{
+float: left;
+
+}
+
+}
+
 @media(max-width: 920px){
 input, select, .submit, select , option{
 width: 90%;
@@ -204,8 +204,8 @@ margin-bottom: 10px;
 
 
 @media(max-width: 1234px){
-  #book{
-    padding-bottom: 100px;
-    padding-top: 50px;
-  }
+#book{
+padding-bottom: 100px;
+padding-top: 50px;
+}
 }
